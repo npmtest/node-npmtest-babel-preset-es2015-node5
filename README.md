@@ -1,6 +1,6 @@
 # npmtest-babel-preset-es2015-node5
 
-#### test coverage for  [babel-preset-es2015-node5 (v1.2.0)](https://github.com/alekseykulikov/babel-preset-es2015-node5#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-preset-es2015-node5.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-preset-es2015-node5) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-preset-es2015-node5.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-preset-es2015-node5)
+#### basic test coverage for  [babel-preset-es2015-node5 (v1.2.0)](https://github.com/alekseykulikov/babel-preset-es2015-node5#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-preset-es2015-node5.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-preset-es2015-node5) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-preset-es2015-node5.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-preset-es2015-node5)
 
 #### Babel preset to make node@5 fully ES2015 compatible.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-babel-preset-es2015-node5/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-babel-preset-es2015-node5/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-babel-preset-es2015-node5/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-babel-preset-es2015-node5/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-preset-es2015-node5/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-preset-es2015-node5/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-babel-preset-es2015-node5/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-babel-preset-es2015-node5/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-preset-es2015-node5/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-preset-es2015-node5/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-babel-preset-es2015-node5/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-babel-preset-es2015-node5/build/coverage.html/index.html)
 
@@ -90,7 +90,8 @@
     "scripts": {
         "test": "eslint lib/ test/ && mocha test/index.js"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
